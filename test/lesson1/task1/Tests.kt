@@ -104,5 +104,8 @@ class Tests {
     fun numberRevert() {
         assertEquals(874, numberRevert(478))
         assertEquals(201, numberRevert(102))
+        assertEquals(536, numberRevert(635))
+        assertEquals(817, numberRevert(718))
+        assertEquals(901, numberRevert(109))
     }
 }
